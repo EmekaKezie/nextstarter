@@ -2,7 +2,8 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 
-export default function Home() {
+
+export default function About() {
   return (
     <div className={styles.container}>
       <Head>
@@ -11,9 +12,9 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h2>This is Home Page</h2>
-        <Link href="/about">
-          <a>Go to About</a>
+        <h2>This is About Page</h2>
+        <Link href="/">
+          <a>Go to Home</a>
         </Link>
       </main>
 
